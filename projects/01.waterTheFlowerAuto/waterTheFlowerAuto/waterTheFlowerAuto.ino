@@ -8,7 +8,7 @@ int pin_relay = 2;
 int sensor_level = LOW;
 int sensor_number;
 int counter = -1;
-int water_seconds = 20;
+int water_seconds = 10;
 
 void setup() {
   pinMode(PIN_AO, INPUT);
