@@ -30,10 +30,10 @@ void callback() {
         digitalWrite(pin_relay, LOW);
         Timer1.initialize(check_interval_seconds);
       }
-      // Serial.print("AO=");
-      // Serial.print(sensor_number);
-      // Serial.print(", DO=");
-      // Serial.println(sensor_level);
+      Serial.print("AO=");
+      Serial.print(sensor_number);
+      Serial.print(", DO=");
+      Serial.println(sensor_level);
   };
 }
 
